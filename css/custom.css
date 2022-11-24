@@ -4,7 +4,7 @@ body {
 	}
 	
 h1, h4, h5, h6 {
-	color: purple;
+	color: #000080;
 	}
 	
 .feature {
@@ -40,9 +40,25 @@ background-repeat: repeat-x;
 .article-intro,
 .footer-blurb,
 .small-print {
-	text-align: center;
+	text-align: left;
+	
 	}
 	h2,h3{
 
-		color:blue
+		color: #000080;
 	}
+
+	
+	p{
+font-size: 12pt;
+color:#000080 ;
+
+	}
+
+.row p::first-letter {
+		font-size: 3em;
+		font-weight: bold;
+		color: #000080;
+		float: left;
+	}
+	
